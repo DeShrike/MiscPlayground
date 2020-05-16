@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sovoreg.Encryptor", "Sovoreg.Encryptor\Sovoreg.Encryptor.csproj", "{BEFBF1F0-E656-49AE-90DE-56F2DD910647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sovoreg.Crypto", "Sovoreg.Crypto\Sovoreg.Crypto.csproj", "{BE2E2BE4-A250-49F7-92A8-934F57055AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sovoreg.Crypto.Tests", "Sovoreg.Crypto.Tests\Sovoreg.Crypto.Tests.csproj", "{447E9411-7B2A-44A9-B04A-DE65696DB6D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DE4B5D94-F682-4AD3-A380-42F6C36CA946}"
+	ProjectSection(SolutionItems) = preProject
+		BuildPackage.bat = BuildPackage.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEFBF1F0-E656-49AE-90DE-56F2DD910647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFBF1F0-E656-49AE-90DE-56F2DD910647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFBF1F0-E656-49AE-90DE-56F2DD910647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFBF1F0-E656-49AE-90DE-56F2DD910647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2E2BE4-A250-49F7-92A8-934F57055AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2E2BE4-A250-49F7-92A8-934F57055AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2E2BE4-A250-49F7-92A8-934F57055AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2E2BE4-A250-49F7-92A8-934F57055AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447E9411-7B2A-44A9-B04A-DE65696DB6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447E9411-7B2A-44A9-B04A-DE65696DB6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447E9411-7B2A-44A9-B04A-DE65696DB6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447E9411-7B2A-44A9-B04A-DE65696DB6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18F3CE92-E59B-4F1F-B633-E5B08AB2D3E1}
+	EndGlobalSection
+EndGlobal
